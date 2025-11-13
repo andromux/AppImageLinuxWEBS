@@ -1,27 +1,28 @@
 {  
-  "name": "lichess",  
+  "name": "gmail",  
   "version": "1.0.0",  
-  "description": "Cliente de escritorio Lichess creado con Nativefier",  
+  "description": "Cliente de escritorio Gmail creado con Nativefier",  
   "main": "index.js",  
   "scripts": {  
     "test": "echo \"Error: no test specified\" && exit 1"  
   },  
   "keywords": [],  
-  "author": "",  
+  "author": "Andromux",  
   "license": "ISC",  
   "build": {  
-    "productName": "Lichess",  
-    "appId": "org.lichess.desktop",  
+    "productName": "Gmail",  
+    "appId": "com.gmail.desktop",  
     "electronVersion": "26.0.12",  
     "directories": {  
       "output": "dist"  
-    },  
+    },
+    "icon": "Gmail-linux-x64/icon",
     "linux": {  
       "target": [  
         "AppImage",  
         "deb"
       ],  
-      "category": "Game",  
+      "category": "Utility",  
       "executableArgs": [  
         "--no-sandbox"  
       ]  
