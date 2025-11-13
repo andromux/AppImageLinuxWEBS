@@ -1,0 +1,30 @@
+{  
+  "name": "lichess",  
+  "version": "1.0.0",  
+  "description": "Cliente de escritorio Lichess creado con Nativefier",  
+  "main": "index.js",  
+  "scripts": {  
+    "test": "echo \"Error: no test specified\" && exit 1"  
+  },  
+  "keywords": [],  
+  "author": "",  
+  "license": "ISC",  
+  "build": {  
+    "productName": "Lichess",  
+    "appId": "org.lichess.desktop",  
+    "electronVersion": "26.0.12",  
+    "directories": {  
+      "output": "dist"  
+    },  
+    "linux": {  
+      "target": [  
+        "AppImage",  
+        "deb"
+      ],  
+      "category": "Game",  
+      "executableArgs": [  
+        "--no-sandbox"  
+      ]  
+    }  
+  }  
+}
